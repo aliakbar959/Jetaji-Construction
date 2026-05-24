@@ -1,0 +1,90 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1000" role="img" aria-label="AI generated Indian shop front exterior">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1308"/>
+      <stop offset="0.46" stop-color="#38270e"/>
+      <stop offset="1" stop-color="#070604"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff0a8"/>
+      <stop offset="0.5" stop-color="#d5a641"/>
+      <stop offset="1" stop-color="#8d631d"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f2a20"/>
+      <stop offset="1" stop-color="#12100c"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+    <pattern id="jaali" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M23 2 L44 23 L23 44 L2 23 Z" fill="none" stroke="#d5a641" stroke-opacity="0.18" stroke-width="2"/>
+    </pattern>
+    <pattern id="shutter" width="18" height="18" patternUnits="userSpaceOnUse">
+      <path d="M0 4 H18 M0 12 H18" stroke="#f4d47f" stroke-opacity="0.36" stroke-width="2"/>
+    </pattern>
+  </defs>
+
+  <rect width="1400" height="1000" fill="url(#sky)"/>
+  <circle cx="1120" cy="110" r="260" fill="#d5a641" opacity="0.18"/>
+  <circle cx="210" cy="180" r="210" fill="#f4d47f" opacity="0.1"/>
+
+  <g opacity="0.22">
+    <path d="M0 780 C260 720 410 780 630 725 C850 670 1020 715 1400 650 V1000 H0 Z" fill="#000"/>
+    <path d="M0 830 C280 790 520 845 810 792 C1050 748 1230 790 1400 750 V1000 H0 Z" fill="#d5a641" opacity="0.24"/>
+  </g>
+
+  <g transform="translate(140 118)" filter="url(#shadow)">
+    <path d="M70 125 H1110 L1042 782 H138 Z" fill="#0b0a08"/>
+    <path d="M110 160 H1070 L1012 760 H168 Z" fill="url(#wall)" stroke="#d5a641" stroke-opacity="0.36" stroke-width="4"/>
+    <rect x="126" y="178" width="928" height="160" rx="8" fill="#080705" stroke="#d5a641" stroke-width="5"/>
+    <rect x="146" y="198" width="888" height="120" rx="4" fill="url(#gold)"/>
+    <rect x="146" y="198" width="888" height="120" fill="url(#jaali)" opacity="0.45"/>
+    <text x="590" y="278" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="70" font-weight="900" fill="#120d05" letter-spacing="2">INDIAN SHOP FRONT</text>
+    <text x="590" y="314" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="800" fill="#3b2a0d" letter-spacing="7">HOUSE • SHOP • LOCAL BUILD</text>
+
+    <path d="M92 340 H1090 L1022 420 H160 Z" fill="#d5a641"/>
+    <path d="M92 340 H1090 L1022 420 H160 Z" fill="#000" opacity="0.18"/>
+    <g opacity="0.9">
+      <path d="M132 354 H240 L220 402 H112 Z" fill="#f4d47f"/>
+      <path d="M250 354 H358 L338 402 H230 Z" fill="#11100d"/>
+      <path d="M368 354 H476 L456 402 H348 Z" fill="#f4d47f"/>
+      <path d="M486 354 H594 L574 402 H466 Z" fill="#11100d"/>
+      <path d="M604 354 H712 L692 402 H584 Z" fill="#f4d47f"/>
+      <path d="M722 354 H830 L810 402 H702 Z" fill="#11100d"/>
+      <path d="M840 354 H948 L928 402 H820 Z" fill="#f4d47f"/>
+      <path d="M958 354 H1064 L1044 402 H938 Z" fill="#11100d"/>
+    </g>
+
+    <rect x="215" y="430" width="315" height="330" rx="6" fill="#080705" stroke="#d5a641" stroke-opacity="0.48" stroke-width="4"/>
+    <rect x="238" y="454" width="269" height="280" fill="#16130d"/>
+    <rect x="238" y="454" width="269" height="280" fill="url(#shutter)"/>
+    <rect x="620" y="430" width="335" height="330" rx="6" fill="#080705" stroke="#d5a641" stroke-opacity="0.48" stroke-width="4"/>
+    <rect x="646" y="456" width="284" height="278" fill="#1f1a11"/>
+    <path d="M646 456 H930 V734 H646 Z" fill="#d5a641" opacity="0.16"/>
+    <path d="M666 478 H910 M666 536 H910 M666 594 H910 M666 652 H910" stroke="#f4d47f" stroke-opacity="0.42" stroke-width="5"/>
+
+    <g transform="translate(72 444)">
+      <rect x="0" y="0" width="72" height="230" rx="34" fill="#0e0c08" stroke="#d5a641" stroke-width="5"/>
+      <circle cx="36" cy="42" r="19" fill="#f4d47f"/>
+      <circle cx="36" cy="96" r="19" fill="#d5a641"/>
+      <circle cx="36" cy="150" r="19" fill="#f4d47f"/>
+    </g>
+
+    <g transform="translate(998 454)">
+      <rect x="0" y="0" width="42" height="250" rx="20" fill="#d5a641" opacity="0.9"/>
+      <path d="M21 16 V232" stroke="#080705" stroke-width="5" stroke-linecap="round" opacity="0.48"/>
+    </g>
+
+    <path d="M160 760 H1020 L1100 830 H70 Z" fill="#0f0d09" stroke="#d5a641" stroke-opacity="0.28" stroke-width="4"/>
+    <path d="M210 790 H970" stroke="#f4d47f" stroke-opacity="0.34" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.8">
+    <circle cx="236" cy="818" r="7" fill="#f4d47f"/>
+    <circle cx="274" cy="840" r="4" fill="#d5a641"/>
+    <circle cx="1038" cy="788" r="5" fill="#f4d47f"/>
+    <circle cx="1096" cy="834" r="7" fill="#d5a641"/>
+    <circle cx="1172" cy="798" r="4" fill="#fff0a8"/>
+  </g>
+</svg>
