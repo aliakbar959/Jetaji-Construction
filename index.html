@@ -1,460 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Jetaji Construction — Premium construction services."/>
-  <title>Jetaji Construction | Building Excellence</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="icon" href="logo.png" type="image/png">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600&family=Barlow+Condensed:wght@400;500;600;700&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Jetaji Construction builds premium houses and shops with trusted local craftsmanship." />
+  <title>Jetaji Construction | Premium Local Builders</title>
+  <link rel="icon" type="image/png" href="assets/jetaji-logo.png" />
+  <link rel="apple-touch-icon" href="assets/jetaji-logo.png" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-
-<!-- FLOATING WHATSAPP BUTTON -->
-<a href="https://wa.me/917339755053" target="_blank" rel="noopener" class="wa-float" aria-label="Chat on WhatsApp">
-  <svg viewBox="0 0 24 24" fill="white" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-  <span class="wa-tip">Chat with us</span>
-</a>
-
-<!-- NAVIGATION -->
-<header id="navbar">
-  <div class="nav-wrap">
-    <a href="#home" class="nav-logo">
-      <img src="logo.png" alt="Jetaji Construction" class="nav-logo-img"/>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header" data-reveal>
+    <a class="brand" href="#home" aria-label="Jetaji Construction home">
+      <img src="assets/jetaji-logo.png" alt="Jetaji Construction logo" />
+      <span>Jetaji Construction</span>
     </a>
-    <nav class="nav-links">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
+    <nav class="nav-links" aria-label="Main navigation">
       <a href="#services">Services</a>
-      <a href="#projects">Projects</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#process">Process</a>
       <a href="#contact">Contact</a>
     </nav>
-    <a href="#contact" class="nav-quote">Request a Quote</a>
-    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
-  <nav class="mobile-nav" id="mobileNav">
-    <a href="#home"     class="mlink">Home</a>
-    <a href="#about"    class="mlink">About</a>
-    <a href="#services" class="mlink">Services</a>
-    <a href="#projects" class="mlink">Projects</a>
-    <a href="#contact"  class="mlink">Contact</a>
-    <a href="https://wa.me/917339755053" class="mlink mwa" target="_blank">💬 WhatsApp Us</a>
-  </nav>
-</header>
+    <a class="header-call" href="tel:+918306455053">Call Owner</a>
+  </header>
 
-
-<!-- ========== HERO ========== -->
-<section id="home" class="hero">
-  <div class="hero-bg"></div>
-  <div class="hero-overlay"></div>
-  <div class="shape sh1"></div>
-  <div class="shape sh2"></div>
-  <div class="shape sh3"></div>
-
-  <div class="container hero-body">
-    <p class="eyebrow"><span class="eyebar"></span>Premium Construction Since 2005</p>
-    <h1 class="hero-h1">Building Your<br><em class="gld">Vision</em><br>Into Reality</h1>
-    <p class="hero-p">We craft landmark structures with precision engineering,<br class="nbr"> uncompromising quality, and timeless craftsmanship.</p>
-    <div class="hero-btns">
-      <a href="#contact" class="btn-gold">Request a Quote <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
-      <a href="#projects" class="btn-ghost">View Our Work</a>
-    </div>
-  </div>
-
-  <div class="stats-bar">
-    <div class="stat"><span class="snum" data-target="350">0</span><span class="sunit">+</span><p>Projects Completed</p></div>
-    <div class="stat"><span class="snum" data-target="18">0</span><span class="sunit">+</span><p>Years Experience</p></div>
-    <div class="stat"><span class="snum" data-target="120">0</span><span class="sunit">+</span><p>Expert Team Members</p></div>
-    <div class="stat"><span class="snum" data-target="98">0</span><span class="sunit">%</span><p>Client Satisfaction</p></div>
-  </div>
-</section>
-
-
-<!-- ========== ABOUT ========== -->
-<section id="about" class="section about">
-  <div class="container">
-    <div class="about-grid">
-
-      <div class="about-imgs rv-left">
-        <div class="img-main-wrap">
-          <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80&auto=format&fit=crop" alt="Jetaji Construction site" loading="lazy"/>
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy" data-reveal>
+        <p class="eyebrow">Premium house and shop construction</p>
+        <h1>Jetaji Construction</h1>
+        <p class="hero-text">Black-and-gold precision for strong homes, sharp storefronts, and dependable local building work from foundation to finish.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="tel:+918306455053">+91 8306455053</a>
+          <a class="btn ghost" href="https://www.instagram.com/jetaji.construction" target="_blank" rel="noreferrer">@jetaji.construction</a>
         </div>
-        <div class="img-accent-wrap">
-          <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=500&q=80&auto=format&fit=crop" alt="Construction workers" loading="lazy"/>
-        </div>
-        <div class="yrs-badge">
-          <span class="ynum">18</span>
-          <span class="ytxt">Years of<br>Excellence</span>
-        </div>
-        <div class="frm tl"></div>
-        <div class="frm br"></div>
       </div>
 
-      <div class="about-txt rv-right">
-        <p class="lbl">About Jetaji Construction</p>
-        <h2 class="sh">We Build More Than<br><span class="gld">Structures</span></h2>
-        <div class="gbar"></div>
-        <p class="body-p">Since 2005, Jetaji Construction has been a cornerstone of the industry, delivering over 350 landmark projects across residential, commercial, and infrastructure sectors. Our deep roots in quality craftsmanship and forward-looking engineering define every project we undertake.</p>
-        <p class="body-p mt14">With 120+ certified professionals, we bring unmatched expertise to every foundation we lay and every skyline we shape — creating spaces where communities thrive and businesses flourish.</p>
-
-        <div class="mv-row">
-          <div class="mv-card">
-            <div class="mv-ico">🎯</div>
-            <h4>Our Mission</h4>
-            <p>To deliver premium construction solutions that exceed client expectations through innovation, safety, and excellence in every detail.</p>
-          </div>
-          <div class="mv-card">
-            <div class="mv-ico">🔭</div>
-            <h4>Our Vision</h4>
-            <p>To be the most trusted construction partner in the region, setting new benchmarks for quality, sustainability, and architectural beauty.</p>
-          </div>
+      <div class="hero-visual" data-reveal>
+        <canvas id="constructionScene" aria-label="Animated 3D golden construction building scene"></canvas>
+        <div class="visual-badge">
+          <strong>Local Builds</strong>
+          <span>Homes â€¢ Shops â€¢ Renovation</span>
         </div>
-
-        <a href="#contact" class="btn-gold mt28">Start Your Project <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
       </div>
+    </section>
 
-    </div>
-  </div>
-</section>
-
-
-<!-- ========== SERVICES ========== -->
-<section id="services" class="section services">
-  <div class="container">
-    <div class="sec-hdr rv">
-      <p class="lbl center">What We Do</p>
-      <h2 class="sh center">Our <span class="gld">Services</span></h2>
-      <div class="gbar center"></div>
-      <p class="sec-sub">From foundation to finish — complete construction solutions tailored to your vision and budget.</p>
-    </div>
-
-    <div class="svc-grid">
-      <article class="svc-card rv d1">
-        <div class="svc-img"><img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&q=75&auto=format&fit=crop" alt="Residential construction" loading="lazy"/></div>
-        <div class="svc-body">
-          <div class="svc-n">01</div>
-          <div class="svc-ico">🏗️</div>
-          <h3>Residential Construction</h3>
-          <p>Custom homes, villas, and apartment complexes built to the highest standards of comfort and structural durability.</p>
-          <span class="svc-more">Explore →</span>
-        </div>
-        <div class="svc-glow"></div>
+    <section class="stats" aria-label="Company highlights" data-reveal>
+      <article>
+        <span>01</span>
+        <strong>Site Planning</strong>
+        <p>Clear measurements, practical layouts, and material guidance before work starts.</p>
       </article>
-
-      <article class="svc-card rv d2">
-        <div class="svc-img"><img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&q=75&auto=format&fit=crop" alt="Commercial buildings" loading="lazy"/></div>
-        <div class="svc-body">
-          <div class="svc-n">02</div>
-          <div class="svc-ico">🏢</div>
-          <h3>Commercial Buildings</h3>
-          <p>Office towers, retail centers, and mixed-use developments designed for maximum efficiency and visual impact.</p>
-          <span class="svc-more">Explore →</span>
-        </div>
-        <div class="svc-glow"></div>
+      <article>
+        <span>02</span>
+        <strong>Premium Finish</strong>
+        <p>Elegant exterior details, clean interiors, and durable shop-front execution.</p>
       </article>
-
-      <article class="svc-card rv d3">
-        <div class="svc-img"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=75&auto=format&fit=crop" alt="Infrastructure roads" loading="lazy"/></div>
-        <div class="svc-body">
-          <div class="svc-n">03</div>
-          <div class="svc-ico">🛣️</div>
-          <h3>Infrastructure & Roads</h3>
-          <p>Roads, bridges, flyovers, and civil infrastructure that connect communities and power economic growth.</p>
-          <span class="svc-more">Explore →</span>
-        </div>
-        <div class="svc-glow"></div>
+      <article>
+        <span>03</span>
+        <strong>Owner Contact</strong>
+        <p>Direct coordination with the owner for faster decisions and smoother delivery.</p>
       </article>
+    </section>
 
-      <article class="svc-card rv d1">
-        <div class="svc-img"><img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&q=75&auto=format&fit=crop" alt="Renovation remodeling" loading="lazy"/></div>
-        <div class="svc-body">
-          <div class="svc-n">04</div>
-          <div class="svc-ico">🔨</div>
-          <h3>Renovation & Remodeling</h3>
-          <p>Transforming existing spaces into modern, functional, and beautiful environments reflecting current design excellence.</p>
-          <span class="svc-more">Explore →</span>
-        </div>
-        <div class="svc-glow"></div>
-      </article>
-
-      <article class="svc-card rv d2">
-        <div class="svc-img"><img src="https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=600&q=75&auto=format&fit=crop" alt="Industrial construction" loading="lazy"/></div>
-        <div class="svc-body">
-          <div class="svc-n">05</div>
-          <div class="svc-ico">🏭</div>
-          <h3>Industrial Construction</h3>
-          <p>Factories, warehouses, and industrial facilities engineered for maximum durability, efficiency, and worker safety.</p>
-          <span class="svc-more">Explore →</span>
-        </div>
-        <div class="svc-glow"></div>
-      </article>
-
-      <article class="svc-card rv d3">
-        <div class="svc-img"><img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?w=600&q=75&auto=format&fit=crop" alt="Architecture design" loading="lazy"/></div>
-        <div class="svc-body">
-          <div class="svc-n">06</div>
-          <div class="svc-ico">📐</div>
-          <h3>Architecture & Design</h3>
-          <p>Comprehensive architectural planning, structural design, and project management from concept to final delivery.</p>
-          <span class="svc-more">Explore →</span>
-        </div>
-        <div class="svc-glow"></div>
-      </article>
-    </div>
-  </div>
-</section>
-
-
-<!-- MARQUEE TICKER -->
-<div class="marquee-strip" aria-hidden="true">
-  <div class="marquee-inner">
-    <span>Excellence in Every Build</span><span class="mdot">◆</span>
-    <span>Quality Craftsmanship</span><span class="mdot">◆</span>
-    <span>Trusted Since 2005</span><span class="mdot">◆</span>
-    <span>Safety First Always</span><span class="mdot">◆</span>
-    <span>Award-Winning Projects</span><span class="mdot">◆</span>
-    <span>On Time · On Budget</span><span class="mdot">◆</span>
-    <span>Excellence in Every Build</span><span class="mdot">◆</span>
-    <span>Quality Craftsmanship</span><span class="mdot">◆</span>
-    <span>Trusted Since 2005</span><span class="mdot">◆</span>
-    <span>Safety First Always</span><span class="mdot">◆</span>
-    <span>Award-Winning Projects</span><span class="mdot">◆</span>
-    <span>On Time · On Budget</span><span class="mdot">◆</span>
-  </div>
-</div>
-
-
-<!-- ========== PROJECTS ========== -->
-<section id="projects" class="section projects">
-  <div class="container">
-    <div class="sec-hdr rv">
-      <p class="lbl center">Our Portfolio</p>
-      <h2 class="sh center">Featured <span class="gld">Projects</span></h2>
-      <div class="gbar center"></div>
-      <p class="sec-sub">A showcase of our finest work — each project a testament to our commitment to exceptional quality.</p>
-    </div>
-
-    <div class="proj-grid">
-      <div class="proj-card large rv d1">
-        <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=900&q=80&auto=format&fit=crop" alt="Skyline Tower Complex" loading="lazy"/>
-        <div class="proj-info">
-          <span class="ptag">Commercial</span>
-          <h3>Skyline Tower Complex</h3>
-          <p>Chennai, Tamil Nadu · 2023</p>
-        </div>
-        <div class="proj-hover"><span>+</span></div>
+    <section class="split-section" id="services">
+      <div class="section-heading" data-reveal>
+        <p class="eyebrow">What we build</p>
+        <h2>Strong structures with a premium local identity.</h2>
       </div>
-
-      <div class="proj-card rv d2">
-        <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?w=700&q=80&auto=format&fit=crop" alt="Greenview Residences" loading="lazy"/>
-        <div class="proj-info">
-          <span class="ptag">Residential</span>
-          <h3>Greenview Residences</h3>
-          <p>Coimbatore · 2023</p>
-        </div>
-        <div class="proj-hover"><span>+</span></div>
+      <div class="service-grid">
+        <article class="service-card" data-reveal>
+          <div class="card-icon">H</div>
+          <h3>House Construction</h3>
+          <p>From foundation and masonry to elevation, plaster, flooring, and finishing.</p>
+        </article>
+        <article class="service-card" data-reveal>
+          <div class="card-icon">S</div>
+          <h3>Shop Construction</h3>
+          <p>Functional commercial spaces, clean frontage, storage planning, and durable surfaces.</p>
+        </article>
+        <article class="service-card" data-reveal>
+          <div class="card-icon">R</div>
+          <h3>Renovation Work</h3>
+          <p>Practical upgrades for older homes and shops with careful material selection.</p>
+        </article>
       </div>
+    </section>
 
-      <div class="proj-card rv d3">
-        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&q=80&auto=format&fit=crop" alt="National Highway Flyover" loading="lazy"/>
-        <div class="proj-info">
-          <span class="ptag">Infrastructure</span>
-          <h3>National Highway Flyover</h3>
-          <p>Salem, Tamil Nadu · 2022</p>
-        </div>
-        <div class="proj-hover"><span>+</span></div>
+    <section class="showcase" aria-label="construction showcase" data-reveal>
+      <div class="showcase-art">
+        <div class="tower tower-one"></div>
+        <div class="tower tower-two"></div>
+        <div class="crane"></div>
+        <div class="road"></div>
       </div>
-
-      <div class="proj-card rv d2">
-        <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=700&q=80&auto=format&fit=crop" alt="Metro Station Phase II" loading="lazy"/>
-        <div class="proj-info">
-          <span class="ptag">Infrastructure</span>
-          <h3>Metro Station Phase II</h3>
-          <p>Chennai, Tamil Nadu · 2022</p>
-        </div>
-        <div class="proj-hover"><span>+</span></div>
+      <div class="showcase-copy">
+        <p class="eyebrow">Signature look</p>
+        <h2>Gold-detail elevations. Black-stone confidence.</h2>
+        <p>Every section is designed around trust, strength, and a premium finish, using custom concept visuals and motion instead of ordinary stock imagery.</p>
       </div>
+    </section>
 
-      <div class="proj-card rv d3">
-        <img src="https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=700&q=80&auto=format&fit=crop" alt="Industrial Logistics Hub" loading="lazy"/>
-        <div class="proj-info">
-          <span class="ptag">Industrial</span>
-          <h3>Industrial Logistics Hub</h3>
-          <p>Madurai · 2021</p>
-        </div>
-        <div class="proj-hover"><span>+</span></div>
+
+    <section class="inspiration-gallery" id="gallery">
+      <div class="section-heading" data-reveal>
+        <p class="eyebrow">Build inspiration</p>
+        <h2>House and shop concepts for a premium finish.</h2>
       </div>
-
-      <div class="proj-card large rv d1">
-        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=900&q=80&auto=format&fit=crop" alt="Heritage Grand Hotel" loading="lazy"/>
-        <div class="proj-info">
-          <span class="ptag">Hospitality</span>
-          <h3>Heritage Grand Hotel</h3>
-          <p>Ooty, Tamil Nadu · 2021</p>
-        </div>
-        <div class="proj-hover"><span>+</span></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- ========== CONTACT ========== -->
-<section id="contact" class="section contact">
-  <div class="container">
-    <div class="contact-grid">
-
-      <div class="c-info rv-left">
-        <p class="lbl">Get In Touch</p>
-        <h2 class="c-h2">Let's Build Something<br><span class="gld">Great Together</span></h2>
-        <div class="gbar"></div>
-        <p class="c-intro">Ready to start your next project? Fill the form — your message goes directly to our WhatsApp. Or reach us through any channel below.</p>
-
-        <ul class="c-list">
-          <li>
-            <div class="c-ico">📞</div>
-            <div class="c-txt"><span class="c-lbl">Phone / WhatsApp</span><a href="https://wa.me/917339755053" class="c-val">+91 73397 55053</a></div>
-          </li>
-          <li>
-            <div class="c-ico">📍</div>
-            <div class="c-txt"><span class="c-lbl">Office Address</span><span class="c-val">No. 12, Builder's Plaza, Anna Nagar,<br>Chennai – 600 040, Tamil Nadu</span></div>
-          </li>
-          <li>
-            <div class="c-ico">⏰</div>
-            <div class="c-txt"><span class="c-lbl">Working Hours</span><span class="c-val">Monday – Saturday: 8:00 AM – 7:00 PM</span></div>
-          </li>
-          <li>
-            <div class="c-ico">✉️</div>
-            <div class="c-txt"><span class="c-lbl">Email</span><span class="c-val">info@jetajiconstruction.com</span></div>
-          </li>
-        </ul>
-
-        <a href="https://wa.me/917339755053" target="_blank" rel="noopener" class="btn-wa-direct">
-          <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          Chat Directly on WhatsApp
-        </a>
-      </div>
-
-      <div class="c-form-wrap rv-right">
-        <form id="contactForm" class="c-form" novalidate>
-          <h3 class="f-title">Send Us a Message</h3>
-          <p class="f-sub">Your message will be sent directly to our WhatsApp.</p>
-
-          <div class="f-row two">
-            <div class="f-field">
-              <label for="fn">Full Name <span class="req">*</span></label>
-              <input type="text" id="fn" name="name" placeholder="e.g. Rajan Kumar" required/>
-            </div>
-            <div class="f-field">
-              <label for="fe">Email Address <span class="req">*</span></label>
-              <input type="email" id="fe" name="email" placeholder="you@example.com" required/>
-            </div>
+      <div class="gallery-grid">
+        <article class="gallery-card wide" data-reveal>
+          <img src="assets/house-luxury.webp" alt="Luxury modern house exterior" loading="lazy" />
+          <div>
+            <span>House Elevation</span>
+            <h3>Luxury modern residence</h3>
           </div>
-
-          <div class="f-field">
-            <label for="fp">Phone Number</label>
-            <input type="tel" id="fp" name="phone" placeholder="+91 98765 43210"/>
+        </article>
+        <article class="gallery-card" data-reveal>
+          <img src="assets/house-minimal.webp" alt="Minimalist modern house exterior" loading="lazy" />
+          <div>
+            <span>Local Home</span>
+            <h3>Minimal glass frontage</h3>
           </div>
-
-          <div class="f-field">
-            <label for="fs">Service Required</label>
-            <select id="fs" name="service">
-              <option value="">— Select a Service —</option>
-              <option>Residential Construction</option>
-              <option>Commercial Building</option>
-              <option>Infrastructure &amp; Roads</option>
-              <option>Renovation &amp; Remodeling</option>
-              <option>Industrial Construction</option>
-              <option>Architecture &amp; Design</option>
-              <option>Other</option>
-            </select>
+        </article>
+        <article class="gallery-card" data-reveal>
+          <img src="assets/construction-material-shop.png" alt="Jetaji Construction material shop front" loading="lazy" />
+          <div>
+            <span>Shop Front</span>
+            <h3>Construction material shop</h3>
           </div>
-
-          <div class="f-field">
-            <label for="fm">Your Message <span class="req">*</span></label>
-            <textarea id="fm" name="message" rows="5" placeholder="Describe your project, location, budget, or any questions…" required></textarea>
-          </div>
-
-          <button type="submit" class="btn-gold full" id="submitBtn">
-            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-            Send via WhatsApp
-          </button>
-          <p class="f-privacy">🔒 Your information is private and goes only to Jetaji Construction.</p>
-        </form>
+        </article>
       </div>
-
-    </div>
-  </div>
-</section>
-
-
-<!-- ========== FOOTER ========== -->
-<footer class="footer">
-  <div class="footer-top">
-    <div class="container footer-grid">
-
-      <div class="ft-brand">
-        <a href="#home" class="ft-logo">
-          <img src="logo.png" alt="Jetaji Construction" class="footer-logo-img"/>
-        </a>
-        <p>Building landmark structures with precision engineering and timeless craftsmanship since 2005.</p>
-        <div class="ft-social">
-          <a href="#" class="sb" aria-label="Facebook">f</a>
-          <a href="#" class="sb" aria-label="Instagram">ig</a>
-          <a href="https://wa.me/917339755053" class="sb" target="_blank" aria-label="WhatsApp">W</a>
-          <a href="#" class="sb" aria-label="YouTube">▶</a>
-        </div>
+    </section>
+    <section class="process" id="process">
+      <div class="section-heading" data-reveal>
+        <p class="eyebrow">Work process</p>
+        <h2>Simple, direct, and built around the site.</h2>
       </div>
-
-      <div class="ft-col">
-        <h4>Quick Links</h4>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+      <div class="timeline">
+        <article data-reveal>
+          <span></span>
+          <h3>Visit</h3>
+          <p>Understand the plot, requirement, budget, and timeline.</p>
+        </article>
+        <article data-reveal>
+          <span></span>
+          <h3>Plan</h3>
+          <p>Discuss design direction, materials, labor, and finish quality.</p>
+        </article>
+        <article data-reveal>
+          <span></span>
+          <h3>Build</h3>
+          <p>Execute the work with regular updates and owner-level coordination.</p>
+        </article>
       </div>
+    </section>
 
-      <div class="ft-col">
-        <h4>Services</h4>
-        <ul>
-          <li><a href="#services">Residential Construction</a></li>
-          <li><a href="#services">Commercial Buildings</a></li>
-          <li><a href="#services">Infrastructure &amp; Roads</a></li>
-          <li><a href="#services">Renovation &amp; Remodeling</a></li>
-          <li><a href="#services">Industrial Construction</a></li>
-          <li><a href="#services">Architecture &amp; Design</a></li>
-        </ul>
+    <section class="contact-band" id="contact" data-reveal>
+      <div>
+        <p class="eyebrow">Start your project</p>
+        <h2>Build your house or shop with Jetaji Construction.</h2>
       </div>
-
-      <div class="ft-col">
-        <h4>Contact</h4>
-        <ul class="ft-contact">
-          <li><span>📞</span><a href="https://wa.me/917339755053">+91 73397 55053</a></li>
-          <li><span>✉️</span><span>info@jetajiconstruction.com</span></li>
-          <li><span>📍</span><span>No. 12, Builder's Plaza,<br>Anna Nagar, Chennai – 600 040</span></li>
-          <li><span>⏰</span><span>Mon–Sat: 8:00 AM – 7:00 PM</span></li>
-        </ul>
+      <div class="contact-actions">
+        <a class="btn primary" href="tel:+918306455053">Call +91 8306455053</a>
+        <a class="btn ghost" href="https://www.instagram.com/jetaji.construction" target="_blank" rel="noreferrer">Instagram</a>
       </div>
+    </section>
+    <section class="contact-form-section" data-reveal>
+      <div class="section-heading">
+        <p class="eyebrow">Contact owner</p>
+        <h2>Share your project details directly on WhatsApp.</h2>
+      </div>
+      <form class="contact-form" id="projectContactForm">
+        <label>
+          <span>Your name</span>
+          <input type="text" name="name" placeholder="Enter your name" required />
+        </label>
+        <label>
+          <span>Mobile number</span>
+          <input type="tel" name="phone" placeholder="Enter your mobile number" required />
+        </label>
+        <label>
+          <span>Project type</span>
+          <select name="project" required>
+            <option value="">Select project type</option>
+            <option value="House Construction">House Construction</option>
+            <option value="Shop Construction">Shop Construction</option>
+            <option value="Renovation Work">Renovation Work</option>
+          </select>
+        </label>
+        <label>
+          <span>Location</span>
+          <input type="text" name="location" placeholder="Enter site location" required />
+        </label>
+        <label class="full-field">
+          <span>Project details</span>
+          <textarea name="message" rows="5" placeholder="Tell us about plot size, budget, timeline, or any requirement" required></textarea>
+        </label>
+        <button class="btn primary full-field" type="submit">Send Details on WhatsApp</button>
+      </form>
+    </section>
+  </main>
 
-    </div>
-  </div>
+  <footer>
+    <span>Jetaji Construction</span>
+    <span>Premium local house and shop builders</span>
+  </footer>
 
-  <div class="footer-btm">
-    <div class="container footer-btm-in">
-      <p>© 2024 Jetaji Construction. All Rights Reserved.</p>
-      <p class="ft-tag">Building Excellence · Delivering Trust</p>
-    </div>
-  </div>
-</footer>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
